@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex 壁纸"
+  short_description: "控制 Codex 全窗口图片壁纸，调整明暗、模糊和透明度并恢复默认外观"
+  default_prompt: "使用 $codex-wallpaper 调整我的 Codex 图片壁纸，并检查设置是否已生效。"

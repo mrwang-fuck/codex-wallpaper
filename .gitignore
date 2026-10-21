@@ -1,0 +1,30 @@
+# Local settings and installation discovery
+/settings.json
+/settings.json.*
+/installation.json
+/installation.json.*
+/patch-manifest.json
+**/location.json
+**/managed.json
+
+# Runtime state and diagnostics
+*.log
+*-status.json
+*-controller.json
+*.candidate
+*.tmp
+
+# Build and test output
+*.exe
+*.pdb
+/.test-output/
+/dist/
+/node_modules/
+
+# Personal images and old research artifacts
+/wallpapers/
+/backup/
+/stage/
+/.wallpaper-probe/
+Thumbs.db
+Desktop.ini

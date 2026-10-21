@@ -1,0 +1,14 @@
+{
+  "name": "codex-wallpaper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Unofficial local wallpaper settings for Codex on Windows",
+  "license": "MIT",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/build-app.ps1",
+    "test:ui": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/test-ui.ps1",
+    "test:skill": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tests/skill-integration.ps1"
+  }
+}
